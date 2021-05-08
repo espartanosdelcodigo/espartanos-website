@@ -25,16 +25,16 @@ export default function Home() {
             Contáctanos
           </button>
           <div className={"display-flex"}>
-            <IconMainScreen />
-            <IconMainScreen />
-            <IconMainScreen />
-            <IconMainScreen />
+            <IconMainScreen imgClass="youtube" />
+            <IconMainScreen imgClass="instagram" />
+            <IconMainScreen imgClass="github" />
+            <IconMainScreen imgClass="linkedin" />
           </div>
         </div>
       </div>
       <div className={styles.rightScreen}>
         <Image
-          src="/resources/espartánosdelcódigo-light.png"
+          src="/resources/logo.png"
           alt="Picture of the author"
           width={729}
           height={436}

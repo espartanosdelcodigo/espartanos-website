@@ -1,8 +1,41 @@
 .container {
   width: 49px;
   height: 49px;
-  background-color: white;
-  border: 1px solid red;
   margin-top: 20px;
   margin-right: 13px;
+  transition: 0.15s;
+  border: 0;
+  cursor: pointer;
+}
+
+.youtube {
+  background: no-repeat center/100% url("/resources/youtube_logo_light.png");
+}
+
+.youtube:hover {
+  background: no-repeat center/100% url("/resources/youtube_logo.png");
+}
+
+.instagram {
+  background: no-repeat center/100% url("/resources/instagram_logo_light.png");
+}
+
+.instagram:hover {
+  background: no-repeat center/100% url("/resources/instagram_logo.png");
+}
+
+.github {
+  background: no-repeat center/100% url("/resources/github_logo_light.png");
+}
+
+.github:hover {
+  background: no-repeat center/100% url("/resources/github_logo.png");
+}
+
+.linkedin {
+  background: no-repeat center/100% url("/resources/linkedin_logo_light.png");
+}
+
+.linkedin:hover {
+  background: no-repeat center/100% url("/resources/linkedin_logo.png");
 }

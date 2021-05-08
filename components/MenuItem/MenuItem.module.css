@@ -1,7 +1,38 @@
 .container {
   width: 60px;
   height: 60px;
-  background-color: white;
-  border: 1px solid red;
+  cursor: pointer;
+  border: 0;
   margin-bottom: 15px;
+  transition: 0.2;
+}
+
+.logo-light {
+  background: no-repeat center/100%
+    url("/resources/logo_small_rounded_light.png");
+}
+
+.logo-light:hover {
+  background: no-repeat center/100%
+    url("/resources/logo_small_rounded_semi_light.png");
+}
+
+.home {
+  background: no-repeat center/100% url("/resources/home.png");
+}
+
+.team {
+  background: no-repeat center/100% url("/resources/team.png");
+}
+
+.team:hover {
+  background: no-repeat center/100% url("/resources/team_light.png");
+}
+
+.blog {
+  background: no-repeat center/100% url("/resources/blog.png");
+}
+
+.blog:hover {
+  background: no-repeat center/100% url("/resources/blog_light.png");
 }
